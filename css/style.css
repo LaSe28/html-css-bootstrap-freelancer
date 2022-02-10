@@ -1,0 +1,109 @@
+.hidden{
+    display: none;
+}
+
+header{
+    height: 60px;
+}
+
+
+header .block{
+    height: 40px;
+    background-color: blueviolet;
+}
+
+
+.bg-blue{
+    background-color: #303E4E;
+}
+
+header .row-h{
+    height: 60px;
+}
+
+header [class*="col-"]{
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+
+@media screen and (min-width:768px) {
+    .hidden{
+        display: block;
+    }
+}
+/* first */
+
+
+.bg-turq{
+    background-color: #53AF95;
+}
+
+.first .block{
+    height: 250px;
+    background-color: blueviolet;
+    margin-bottom: 1rem;
+}
+
+.first .text{
+    height: 40px;
+    background-color: darkred;
+    margin-bottom: .5rem;
+}
+
+/* second */
+
+.second .block{
+    height: 300px;
+    position: relative;
+    background-color: blueviolet;
+
+}
+
+.second .text{
+    height: 40px;
+    background-color: darkred;
+}
+
+.second .block .image{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: darkblue;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+/* third */
+
+.third .text{
+    height: 40px;
+    background-color: darkred;
+}
+
+.parag{
+    height: 100px;
+    background-color: darkgreen;
+    border: 2px solid lightgreen;
+}
+
+/* forth */
+
+.forth .text{
+    height: 40px;
+    background-color: darkred;
+}
+
+/* footer */
+
+footer .text{
+    height: 40px;
+    background-color: darkred;
+}
+
