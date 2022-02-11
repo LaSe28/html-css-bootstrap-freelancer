@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .hidden{
     display: none;
 }
@@ -74,10 +80,6 @@ header [class*="col-"]{
     transform: translate(-50%, -50%);
     border-radius: 50%;
     background-color: darkblue;
-}
-
-.mb-1{
-    margin-bottom: 1rem;
 }
 
 /* third */
