@@ -83,39 +83,59 @@ header [class*="col-"]{
 }
 
 .second .block{
-    height: 300px;
     position: relative;
-    background-color: blueviolet;
+}
 
+.bg-op{
+    background-color: #53AF95 ;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.bg-op .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: white;
+    display: none;
 }
 
 .second .text{
     height: 40px;
     background-color: darkred;
 }
+.second img{
+    width: 100%;
+}
 
-.second .block .image{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background-color: darkblue;
+.second .bg-op:hover img{
+    opacity: .2;
+    cursor: pointer;
+}
+
+.bg-op:hover .fas{
+    display: inline-block;
+    cursor: pointer;
+
 }
 
 /* third */
 
-.third .text{
-    height: 40px;
-    background-color: darkred;
-}
-
-.parag{
-    height: 100px;
-    background-color: darkgreen;
-    border: 2px solid lightgreen;
+.third .icon::before,
+.third .icon::after{
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    border-radius: 1em;
 }
 
 /* forth */
