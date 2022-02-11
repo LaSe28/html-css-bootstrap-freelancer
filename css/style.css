@@ -16,8 +16,9 @@ header .block{
 }
 
 
-.bg-blue{
+.bg-d-blue{
     background-color: #303E4E;
+    color: white;
 }
 
 header .row-h{
@@ -187,7 +188,26 @@ header [class*="col-"]{
 
 .fourth .bg-turq:focus-within{
     background-color: #458f7a;
+}
 
+/* last */
+.bg-blue{
+    background-color: #3F536B;
+    color: white;
+}
+
+.last .fab {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.last a{
+    color: #53AF95;
+    text-decoration: none;
 }
 
 
