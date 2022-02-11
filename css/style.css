@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-.hidden{
-    display: none;
-}
 
 header{
     height: 60px;
@@ -43,7 +40,21 @@ header [class*="col-"]{
 
 .bg-turq{
     background-color: #53AF95;
+    color: white;
 }
+
+.first .icon::before,
+.first .icon::after{
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    border-radius: 1em;
+}
+
 
 .first .block{
     height: 250px;
@@ -58,6 +69,18 @@ header [class*="col-"]{
 }
 
 /* second */
+
+.second .icon::before,
+.second .icon::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    border-radius: 1em;
+}
 
 .second .block{
     height: 300px;
