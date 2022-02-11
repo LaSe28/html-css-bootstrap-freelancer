@@ -4,45 +4,58 @@
     box-sizing: border-box;
 }
 
-
-header{
-    height: 60px;
-}
-
-
-header .block{
-    height: 40px;
-    background-color: blueviolet;
-}
-
-
 .bg-d-blue{
     background-color: #303E4E;
     color: white;
 }
 
-header .row-h{
-    height: 60px;
-}
-
-header [class*="col-"]{
-    line-height: 40px;
-    vertical-align: middle;
-}
-
-
-@media screen and (min-width:768px) {
-    .hidden{
-        display: block;
-    }
-}
-/* first */
-
-
 .bg-turq{
     background-color: #53AF95;
     color: white;
 }
+
+.bg-op{
+    background-color: #53AF95 ;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.bg-blue{
+    background-color: #3F536B;
+    color: white;
+}
+
+/* header */
+
+header .fas{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: .5em;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header [href*="#!"]:hover{
+    color: white;
+}
+
+header a:hover{
+    color: #53AF95;
+}
+
+/* first */
+
+
+
 
 .first .icon::before,
 .first .icon::after{
@@ -87,14 +100,6 @@ header [class*="col-"]{
     position: relative;
 }
 
-.bg-op{
-    background-color: #53AF95 ;
-    position: relative;
-    z-index: 10;
-    height: 100%;
-    border-radius: 1rem;
-    overflow: hidden;
-}
 
 .bg-op .fas{
     position: absolute;
@@ -191,10 +196,6 @@ header [class*="col-"]{
 }
 
 /* last */
-.bg-blue{
-    background-color: #3F536B;
-    color: white;
-}
 
 .last .fab {
     height: 40px;

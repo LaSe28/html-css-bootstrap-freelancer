@@ -14,11 +14,16 @@
 <body>
     <header class="bg-d-blue">
         <div class="container-sm">
-            <div class="row gx-2 row-h align-items-center">
-                <div class="col-6 col-md-4 block">START BOOTSTRAP</div>
-                <div class="col-1 offset-5 col-md-1 offset-md-5 block"></div>
-                <div class="col-md-1 d-none d-md-block block"></div>
-                <div class="col-md-1 d-none d-md-block block"></div>
+            <div class="row py-4 justify-content-between align-items-center">
+                <div class="col-6 fw-bold col-md-4"><a href="#!"> START BOOTSTRAP</a></div>
+                <div class="col-1 offset-5 col-md-1 d-md-none block">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="col-6 justify-content-end row">
+                    <div class="col-4 text-center text-uppercase d-none d-md-block"><a href="#portfolio"> Portfolio</a></div>
+                    <div class="col-4 text-center text-uppercase d-none d-md-block"><a href="#about"> about</a></div>
+                    <div class="col-4 text-center text-uppercase d-none d-md-block"><a href="#contact"> contact</a></div>
+                </div>
             </div>
         </div>
     </header>
@@ -49,7 +54,7 @@
     <section class="second container-sm">
         <div class="row mb-1">
             <div class="col-4 offset-4 ">
-                <h2 class="pt-4 pb-2 text-center text-uppercase fs-2">portfolio</h2>
+                <h2 id="portfolio" class="pt-4 pb-2 text-center text-uppercase fs-2">portfolio</h2>
             </div>
         </div>
         <div class="row mb-1">
@@ -100,7 +105,7 @@
         <div class="third  container-sm">
             <div class="row">
                 <div class="col text-center">
-                    <h2 class="fs-2 pt-5 text-uppercase ">about</h2>
+                    <h2 id="about" class="fs-2 pt-5 text-uppercase ">about</h2>
                 </div>
             </div>
             <div class="row">
@@ -130,7 +135,7 @@
     <section class="fourth container-sm">
         <div class="row mb-1">
             <div class="col-4 offset-4 ">
-                <h2 class="pt-4 pb-2 text-center text-uppercase fs-2">contact me</h2>
+                <h2 id="contact" class="pt-4 pb-2 text-center text-uppercase fs-2">contact me</h2>
             </div>
         </div>
         <div class="row mb-1">
