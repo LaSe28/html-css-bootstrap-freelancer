@@ -138,12 +138,58 @@ header [class*="col-"]{
     border-radius: 1em;
 }
 
-/* forth */
+.third .btn:focus{
+    box-shadow: none;
 
-.forth .text{
+}
+
+/* fourth */
+
+.fourth .icon::before,
+.fourth .icon::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    border-radius: 1em;
+}
+
+.fourth .text{
     height: 40px;
     background-color: darkred;
 }
+
+.fourth .input-border{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+}
+
+.input-border:focus{
+    border-color: #86b7fe;
+    box-shadow: none;
+}
+
+.fourth .bg-turq{
+    border: none;
+}
+
+.fourth .bg-turq:hover{
+    background-color: #458f7a;
+}
+
+.fourth .bg-turq:focus{
+    box-shadow: none;
+}
+
+.fourth .bg-turq:focus-within{
+    background-color: #458f7a;
+
+}
+
 
 /* footer */
 
