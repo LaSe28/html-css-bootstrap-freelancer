@@ -67,7 +67,6 @@ header a:hover{
     content: "";
     display: inline-block;
     height: 4px;
-    position: relative;
     vertical-align: middle;
     width: 25%;
     border-radius: 1em;
@@ -94,7 +93,6 @@ header a:hover{
     content: "";
     display: inline-block;
     height: 4px;
-    position: relative;
     vertical-align: middle;
     width: 25%;
     border-radius: 1em;
@@ -142,7 +140,6 @@ header a:hover{
     content: "";
     display: inline-block;
     height: 4px;
-    position: relative;
     vertical-align: middle;
     width: 25%;
     border-radius: 1em;
@@ -161,7 +158,6 @@ header a:hover{
     content: "";
     display: inline-block;
     height: 4px;
-    position: relative;
     vertical-align: middle;
     width: 25%;
     border-radius: 1em;
